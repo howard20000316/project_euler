@@ -1,3 +1,6 @@
+clear
+
+tic
 eth = [];
 ethc = 1;
 for i = 1 : 100
@@ -26,3 +29,6 @@ for i = 1 : length(n)
     answer = answer + str2num(n(i));
 end
 disp(answer)
+toc
+
+%Elapsed time is 0.206219 seconds.
